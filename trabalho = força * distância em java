@@ -1,0 +1,27 @@
+// terceira atividae java
+
+import java.util.Scanner;
+
+
+public class calculadora {
+
+
+    public static void main (String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("calculo : trbalho = força * distancia ");
+        System.out.print("informe força do trabalho:");
+        Double n1 = sc.nextDouble();
+        System.out.print("informe a distância do trabalho:");
+        Double n2 = sc.nextDouble();
+
+
+
+        Double multiplicacao = n1 * n2;   
+
+        
+        System.out.println("multiplicação:" + multiplicacao);
+
+        sc.close();
+
+    }
+}
