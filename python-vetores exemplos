@@ -1,0 +1,147 @@
+imaginando que são andares de prédios,o 12 é o terreo que no caso aqui fica 0,o 13 é o primeiro andar e assim sucessivamente. aqui imprimimos o terceiro andar,que é o 33
+
+x=[12,13,45,33,66]
+print(x[3])
+
+---------------------------------------
+aqui imprimimos dois andares de vez
+
+x=[12,13,45,33,66]
+print(f'{x[0]}--{x[4]}')
+---------------------------------------
+aqui imprimimos toda a lista
+
+x=[12,13,45,33,66]
+print(x)
+
+-----------------------------------------
+COMANDOS
+#append(): inserir na ultima posição
+-----------------------------------------------------
+#insert(): inserir na posição desejada
+--------------------------------------------------------
+#pop():remove a ultima posição, mas caso queira remover só o primeiro andar,digita:pop(aqui coloca o número que deseja remover) ex: pop(1) aí o 1 vai ser removido
+-------------------------------------------------------------
+#remove():remove a posição que deseja,mas prucura pelo andar e sim pelo valor. digita :remove(o número que deseja remover). ex: pop(45), aí ele vai verificar se tem esse número,e se 
+tiver vai remover. Caso tenha,por exemplo.vários números 45,ele não vai remover todos,e sim só o primeiro
+---------------------------------------------------
+#sum():soma todos os valores do vetor
+--------------------------------------------------
+  #max():procura o maior valor do vetor
+
+     #min()procura o menor valor
+
+    x=[12,13,45,33,66]
+maior_valor = max(x)
+menor_valor =min(x)
+
+print(maior_valor)
+    print(menor_valor)  
+
+
+-----------------------------------------
+    #choice: faz sorteio do número
+
+      import random
+
+x=[12,13,45,33,66]
+
+sortudo = random.choice(x)
+
+print(sortudo)
+
+        assim ele vai sortear um desses números que estão dentro de x e vai imprimir
+
+-----------------------------------------------------------
+
+        sort: ordena o vetor de forma crescente
+
+        import random
+
+x=[12,13,45,33,66]
+x.sort()
+
+print(x)
+
+---------------------------------------------------------------
+          #set(): elimina elementos repetidos
+
+          
+import random
+
+x=[12,13,45,33,66]
+y=[13,21,66,77,88]
+
+uniao = x+y
+
+print(uniao)
+
+  assim os duplicados vão sumir:
+  
+  import random
+
+x=[12,13,45,33,66]
+y=[13,21,66,77,88]
+
+uniao = set(x+y)
+
+print(uniao)
+
+---------------------------------------------
+
+  #for  para repetir determinada coisa várias vezes,escreve for, do lado coloca o nome da pessoa, do lado coloca in range(), nesse parêntese coloca a quantidade de vezes que é para repetir,assim:
+    
+ for motoboy in range(20) :
+    print('Paula Medina')
+-----------------------------------------------------------
+   #while true: repetir infinitamente
+while true:
+    print('Paula Medina')
+
+  --------------------------------------------------------
+  imprimindo números,mas em vez de ser um do lado do outro,um em cima do outro:
+
+    numeros = [12,23,24,33,54,11,55,56]
+
+for mauricio in range(8):
+    print(numeros[mauricio])
+
+  caso,por exemplo,não saiba quantos andares o prédio tem,faz isso que ele irá até o final do vetor:
+
+    numeros = [12,23,24,33,54,11,55,56]
+
+for mauricio in numeros
+    print(mauricio)
+
+--------------------------------------------------------------------------------
+
+  imprimir apenas quem é pá:
+
+  numeros = [12,23,24,33,54,11,55,56]
+
+for mauricio in numeros:
+    if(mauricio%2==0): 
+       print(mauricio)
+
+   #(mauricio%2==0)dividindo por 2 e mostrando o resto,se for 0 ele vai imprimir o andar 
+
+-------  - - ----------------------------------
+
+     imprimir apenas os números negativos:
+
+     numeros = [-6,-12,33,56,-9,21,12,-11,-66,34]
+
+for negativos in numeros:
+   if (negativos < 0):
+    print(negativos)
+
+     
+
+  
+
+  
+    
+     
+    
+
+
